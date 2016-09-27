@@ -1,0 +1,60 @@
+
+body{background: #f6f6f6;}
+.xiaoban{background:#f6f6f6;padding-top: 15px}
+.xiaoban_first{background: #fff;}
+.xiaoban_title{height: 65px;line-height: 65px;text-align: center;position: relative;border-bottom: 1px solid  #e5e5e5;}
+.xiaoban_title span{font-size: 24px;color: #fc4f0b;border-bottom: 2px solid  #fc4f0b;display: inline-block;height: 64px}
+.xiaoban .first_body{height: 468px;overflow: hidden;}
+.xiaoban .first_left{width: 681px}
+.xiaoban .first_right{width:419px;height: 100%}
+.xiaoban .left_box{width: 592px;margin-left: 29px}
+.xiaoban .left_box h2{font-size: 18px;color: #383838;margin-bottom: 12px;margin-top: 93px;}
+.xiaoban .left_box p{font-size: 14px;color: #666;line-height: 24px}
+.xiaoban .right_box{background: url(../images/subject.jpg) no-repeat;background-size: 100% 100%;height: 360px;margin-top: 30px;position: relative;}
+.xiaoban .right_box span{display: inline-block;position: absolute;width: 87px;text-align: center;}
+.xiaoban .right_box span i{font-style: normal;display: block;color: #fff;}
+.xiaoban .right_box .span_math{top:67px;left:58px;}
+.xiaoban .right_box .span_eng{top:45px;left: 170px}
+.xiaoban .right_box .span_bio{top:84px;right:57px;}
+.xiaoban .right_box .span_che{top:167px;right:38px;}
+.xiaoban .right_box .span_Biolog{top:245px;right: 76px}
+.xiaoban .right_box .span_height{top:285px;right: 185px}
+.xiaoban .right_box .span_pic{top:247px;left:48px;}
+.xiaoban .right_box .span_pic i{color: #666}
+.xiaoban .right_box .span_chinese{top:159px;left: 27px}
+.xiaoban .right_box .span_king{top:164px;left: 158px}
+.xiaoban_tow .xiaoban_title{height: 80px;line-height: 80px}
+.xiaoban_tow .xiaoban_title span{height: 79px}
+.xiaoban_tow .tow_body{height: 735px}
+.xiaoban_tow .tow_body h3{font-size: 14px;font-weight: normal;margin-top: 44px;margin-bottom: 21px;color: #383838}
+.xiaoban .contrast{background: #fff}
+.xiaoban .contrast dl{float: left;display: block;}
+.xiaoban .contrast dt{background: #ff9d33;height: 40px;line-height: 40px;text-align: center;color: #fff;margin-bottom: 4px;}
+.xiaoban .contrast .dd_a{height: 136px;text-align: center;background: #f7f7f7;}
+.xiaoban .contrast .dd_b{height: 166px;background: #ebebeb;color: #fb5109;text-align: center;}
+.xiaoban .contrast .type{width: 107px;margin-right: 4px;}
+.xiaoban .contrast .form{width: 147px;margin-right: 4px;}
+.xiaoban .contrast .people,.xiaoban .contrast .teacher{width: 106px;margin-right: 4px;}
+.xiaoban .contrast .content,.xiaoban .contrast .student,.xiaoban .contrast .primay{width: 146px;margin-right: 4px;}
+.xiaoban .contrast .moshi{width: 168px;}
+.xiaoban .contrast span{display: table-cell;vertical-align: middle;height: 136px}
+.xiaoban .contrast .type span{width: 107px}
+.xiaoban .contrast .dd_b span{height: 166px}
+.xiaoban .contrast .form span{width: 121px;padding: 0 15px;text-align: left;}
+.xiaoban .contrast .people span,.xiaoban .contrast .teacher span{width: 106px;}
+.xiaoban .contrast .content span,.xiaoban .contrast .student span,.xiaoban .contrast .primay span{width: 146px;text-align: left;padding:0 15px;}
+.xiaoban .contrast .moshi span{width: 168px;text-align: left;padding:0 15px;}
+.xiaoban .contrast p{text-align: left;padding: 0 15px;padding-top: 27px}
+.xiaoban .color{color: #fb5109 !important;}
+.xiaoban .resone{}
+
+
+
+
+
+
+
+
+
+
+
