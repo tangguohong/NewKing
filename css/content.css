@@ -11,9 +11,6 @@ img{border:0;}
 .red{border: 1px solid red;}
 .rel{position: relative;}
 .abs{position: absolute;}
-<<<<<<< Updated upstream
-/*content*/
-=======
 /*content*/
 .top{background-color: #f6f6f6;}
 .top .logo{background: url("../images/doubt_logo_03.jpg") no-repeat;height:160px;width: 325px;margin-top: 45px;}
@@ -23,4 +20,4 @@ img{border:0;}
 .top .nav-img{padding-bottom: 13px;}
 .foot{height: 85px;background-color: #e5e5e5;text-align: center;line-height: 70px;}
 /*top and foot*/
->>>>>>> Stashed changes
+
