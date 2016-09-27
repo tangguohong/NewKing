@@ -23,6 +23,7 @@ body{background: #f6f6f6;}
 .xiaoban .right_box .span_pic i{color: #666}
 .xiaoban .right_box .span_chinese{top:159px;left: 27px}
 .xiaoban .right_box .span_king{top:164px;left: 158px}
+.xiaoban_tow{padding-bottom: 42px}
 .xiaoban_tow .xiaoban_title{height: 80px;line-height: 80px}
 .xiaoban_tow .xiaoban_title span{height: 79px}
 .xiaoban_tow .tow_body{height: 735px}
@@ -46,15 +47,18 @@ body{background: #f6f6f6;}
 .xiaoban .contrast .moshi span{width: 168px;text-align: left;padding:0 15px;}
 .xiaoban .contrast p{text-align: left;padding: 0 15px;padding-top: 27px}
 .xiaoban .color{color: #fb5109 !important;}
-.xiaoban .resone{}
-
-
-
-
-
-
-
-
-
-
+.xiaoban .resone{border: 1px solid #e7e7e7;height: 120px;background: #fff;}
+.xiaoban .resone_left{width: 137px;height: 108px;padding-top: 14px;padding-left: 22px;}
+.xiaoban .resone_left .resone_img,.xiaoban .resone_left .resone_img2{background: url(../images/small_power.jpg) no-repeat;height: 93px;width: 93px;}
+.xiaoban .resone_left .resone_img2{background: url(../images/small_num.jpg) no-repeat;}
+.xiaoban .resone_right{margin-top: 25px;width: 928px}
+.xiaoban .resone_right h4{font-size: 16px}
+.xiaoban .resone_right p{line-height: 24px;}
+.xiaoban .mgt{margin-top: 13px}
+.xiaoban_three{background: #fff;}
+/*three*/
+.xiaoban .three_zhi{margin-bottom: 25px}
+.xiaoban .three_title{color: #383838;margin: 49px 0 30px;}
+.xiaoban .three_quesition{color: #fc4f0b;font-size: 14px;font-weight: 400;line-height: 24px;margin-bottom: 5px;}
+.xiaoban .three_answer{width: 1039px;line-height: 24px}
 
