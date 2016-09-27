@@ -1,0 +1,62 @@
+/*index cssstart*/
+body,p,h1,h2,h3,h4,dl,dd,form,ul{margin:0;padding: 0;}
+body{font:13px "微软雅黑";}
+a{text-decoration:none;}
+a img{border:0;}
+ul{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after{content:"\200B";height:0;display:block;clear:both;}
+.clearfix{*zoom:1;}
+/*reset end*/
+#indcon{background-color: #F1F1F1;padding-top: 19px;padding-bottom: 34px;}
+#indcon .ind-congroup+.ind-congroup{margin-top: 29px;}
+#indcon .ind-wrap{width:1100px;margin:0 auto;}
+#indcon .tipL{float: left;width:736px;height: 248px;margin-right:18px;}
+#indcon .tipL a{display:block;height: 100%;}
+#indcon .tipR{box-sizing:border-box;height:248px;padding:17px 27px 0 7px;overflow: hidden;background-color: #fff;color:#666;}
+#indcon .tipR h3{font:400 16px "微软雅黑";color:#fa6016;padding-left: 33px;background: url(../images/index_05.png) no-repeat 11px;}
+#indcon .tipR li{margin-top:24px;padding-left:20px;background: url(../images/index_10.jpg) no-repeat 8px 8px;line-height: 20px;}
+#indcon .ind-module{text-align: justify;font-size:0;}
+#indcon .ind-module:after{content:" ";display:inline-block;width:100%;height:0;}
+#indcon .ind-module span{display:inline-block;width:262px;height:129px;font-size:0;color:transparent;background: no-repeat top;}
+#indcon .ind-module .bg1{background-image: url(../images/index_09.jpg);}
+#indcon .ind-module .bg2{background-image: url(../images/index_21.jpg);}
+#indcon .ind-module .bg3{background-image: url(../images/index_16.jpg);}
+#indcon .ind-module .bg4{background-image: url(../images/index_18.jpg);}
+#indcon .ind-container{padding:16px;background-color: #fff;border:1px solid #E4E4E4;}
+#indcon .ind-container h2{line-height:1;padding-bottom:16px;border-bottom:1px solid #E4E4E4;font-size:22px;font-weight:400;color:#fa6016;}
+#indcon .ind-outside-wrap{margin-top: 29px;}
+#indcon .ind-outside-logo{float: left;width:580px;margin-right:41px;padding-left: 8px;}
+#indcon .outside-loitem{text-align: justify;font-size:0;}
+#indcon .outside-loitem+.outside-loitem{margin-top: 22px;}
+#indcon .outside-loitem:after{content:" ";display: inline-block;width:100%;height:0;}
+#indcon .outside-loitem a{display: inline-block;width:180px;height: 70px;}
+#indcon .ind-outside-text{}
+#indcon .ind-outside-text li{overflow: hidden;line-height: 1.1;}
+#indcon .ind-outside-text li+li{margin-top: 20px;}
+#indcon .ind-outside-text li a{float: left;color:#666;}
+#indcon .ind-outside-text li span{float: right;color:#999;}
+#indcon .con-L{float: left;width:702px;}
+#indcon .con-L-img{margin-top:22px;margin-bottom:10px;text-align: justify;font-size:0;}
+#indcon .con-L-img:after{content:" ";display:inline-block;width:100%;height:0;}
+#indcon .con-L-text{line-height:22px;font-size:14px;color:#666;}
+#indcon .con-R{float: right;width:312px;}
+#indcon .con-R-con{padding: 31px 0 4px;}
+#indcon .cont-R-img{margin-bottom: 25px;}
+#indcon .cont-R-text{line-height:20px;color: #666;}
+#indcon .cont-R-text a{color:#fe5506;}
+#indcon .con-L-img-big{float: left;position: relative;font-size:0;}
+#indcon .con-L-img-big span{position: absolute;bottom:0;left:0;width:100%;font-size:18px;padding:2px 0;background: rgba(0,0,0,.5);color:#fff;text-align: center;}
+#indcon .con-L-img-small{float: left;margin-left: 10px;font-size:0;}
+#indcon .con-L-img-small p+p{margin-top: 10px;}
+#indcon .con-L-img-small p span{display: inline-block;position: relative;}
+#indcon .con-L-img-small p span+span{margin-left: 10px;}
+#indcon .con-L-img-small p i{padding:2px 0;position: absolute;bottom:0;left:0;width:100%;font-size:13px;font-style:normal;color:#fff;text-align: center;background:rgba(226,86,20,.9);}
+#indcon .service-flow{height:263px;padding:25px 0;background: url(../images/index_11.jpg) no-repeat center 23px;position: relative;}
+#indcon .red,#indcon .blue,#indcon .navyblue,#indcon .yellow{position: absolute;font-size:18px;}
+#indcon .service-flow .navyblue{color:#65D3DA;top:108px;left:35px;}
+#indcon .service-flow .blue{color:#0996DC;top:22px;right:45px;}
+#indcon .service-flow .yellow{color:#FEBA27;top:268px;left:35px;}
+#indcon .service-flow .red{color:#F86673;top:178px;right:45px;}
+/*index cssend*/
