@@ -15,8 +15,11 @@ ul{list-style: none;}
 #indcon .tipL{float: left;width:736px;height: 248px;margin-right:18px;}
 #indcon .tipL a{display:block;height: 100%;}
 #indcon .tipR{box-sizing:border-box;height:248px;padding:17px 27px 0 7px;overflow: hidden;background-color: #fff;color:#666;}
-#indcon .tipR h3{font:400 16px "微软雅黑";color:#fa6016;padding-left: 33px;background: url(../images/index_05.png) no-repeat 11px;}
+#indcon .tipR h3{padding-left: 33px;background: url(../images/index_05.png) no-repeat 11px;}
+#indcon .tipR h3 a{font:400 16px "微软雅黑";color:#fa6016;}
 #indcon .tipR li{margin-top:24px;padding-left:20px;background: url(../images/index_10.jpg) no-repeat 8px 8px;line-height: 20px;}
+#indcon .tipR li a{color: #666;}
+#indcon .tipR li a:hover{text-decoration:underline;}
 #indcon .ind-module{text-align: justify;font-size:0;}
 #indcon .ind-module:after{content:" ";display:inline-block;width:100%;height:0;}
 #indcon .ind-module span{display:inline-block;width:262px;height:129px;font-size:0;color:transparent;background: no-repeat top;}
@@ -47,11 +50,12 @@ ul{list-style: none;}
 #indcon .cont-R-text{line-height:20px;color: #666;}
 #indcon .cont-R-text a{color:#fe5506;}
 #indcon .con-L-img-big{float: left;position: relative;font-size:0;}
+#indcon .con-L-img-big a{font-size:0;}
 #indcon .con-L-img-big span{position: absolute;bottom:0;left:0;width:100%;font-size:18px;padding:2px 0;background: rgba(0,0,0,.5);color:#fff;text-align: center;}
 #indcon .con-L-img-small{float: left;margin-left: 10px;font-size:0;}
 #indcon .con-L-img-small p+p{margin-top: 10px;}
-#indcon .con-L-img-small p span{display: inline-block;position: relative;}
-#indcon .con-L-img-small p span+span{margin-left: 10px;}
+#indcon .con-L-img-small p a{display: inline-block;position: relative;}
+#indcon .con-L-img-small p a+a{margin-left: 10px;}
 #indcon .con-L-img-small p i{padding:2px 0;position: absolute;bottom:0;left:0;width:100%;font-size:13px;font-style:normal;color:#fff;text-align: center;background:rgba(226,86,20,.9);}
 #indcon .service-flow{height:263px;padding:25px 0;background: url(../images/index_11.jpg) no-repeat center 23px;position: relative;}
 #indcon .red,#indcon .blue,#indcon .navyblue,#indcon .yellow{position: absolute;font-size:18px;}
@@ -60,3 +64,28 @@ ul{list-style: none;}
 #indcon .service-flow .yellow{color:#FEBA27;top:268px;left:35px;}
 #indcon .service-flow .red{color:#F86673;top:178px;right:45px;}
 /*index cssend*/
+/*querycss start*/
+#query .title,#knowme .title{padding: 24px 0 17px;text-align: center;border-bottom: 1px solid #E5E5E5;}
+#query .title span,#knowme .title span{font:400 24px/1 "微软雅黑";color:#fc4f0b;position: relative;}
+#query .title span:after,#knowme .title span:after{content:" ";position: absolute;left:0;bottom:-17px;width:100%;border-bottom: 2px solid #FC4F0B;}
+#query .query-wrap{width:1100px;margin:0 auto;padding-top: 15px;padding-bottom: 37px;}
+#query .query-ilst{margin-top: 15px;padding:20px 34px 18px 0;border: 1px solid #E5E5E5;}
+#query dt,#query dd{padding-left:44px;font-size:14px;background: no-repeat 24px 6px;}
+#query dt{color:#fc4f0b;line-height: 24px;font-weight:bold;background-image: url(../images/doubt_11.jpg);}
+#query dd{color:#666;line-height: 26px;background-image: url(../images/doubt_14.jpg);}
+#query dd a{color:#0066ff;}
+/*querycss end*/
+/* KnowMecss start*/
+#knowme .knowmewrap{width:1100px;margin:0 auto;}
+#knowme .know-list{padding-top:45px;padding-bottom: 65px;}
+#knowme .know-list li{padding-left: 56px;line-height:24px;font-size: 14px;color: #666;background: url(../images/understand_list.jpg) no-repeat 36px 9px;}
+#knowme .know-list li+li{margin-top: 16px;}
+#knowme .report{background-color: #F6F6F6;}
+#knowme .report-con img{width:100%;}
+#knowme .sub-title,#knowme .hot-text{line-height:1;color: #666;text-align:center;}
+#knowme .sub-title{margin-top:52px;margin-bottom:15px;font-size:14px;}
+#knowme .hot-text{font-size:30px;font-weight:400;}
+#knowme .hot-list{padding-top: 27px;padding-bottom: 65px;}
+#knowme .hot-list li{float: left;width:265px;margin:0 5px;margin-top: 30px;font-size:0;}
+#knowme .hot-list span{display:table-cell;width:265px;height: 77px;background-color:#eee;font-size: 13px;color:#666;text-align: center;vertical-align: middle;}
+/* KnowMecss end*/
