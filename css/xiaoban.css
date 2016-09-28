@@ -71,6 +71,7 @@ body{background: #f6f6f6;}
 .xiaoban .three_biaoge .three_th .three_top{background: #ff9d33;color: #FFF}
 
 /*xuanke start*/
+.xk{padding-bottom: 111px;}
 .xk_title{height: 65px;line-height: 65px;border-bottom: 1px solid #e5e5e5;}
 .xk_title span{width: 75px;height: 37px;line-height: 37px;display: inline-block;text-align: center;border:1px solid #e5e5e5;border-radius: 5px }
 .xk_title span.active{background: #ff9d33;color: #fff;border:1px solid #ff9d33;}
