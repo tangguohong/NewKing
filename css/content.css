@@ -15,7 +15,29 @@ img{border:0;}
 .top{background-color: #f6f6f6;}
 .top .logo{background: url("../images/doubt_logo_03.jpg") no-repeat;height:160px;width: 325px;margin-top: 45px;}
 .top .nav{height: 90px;width: 775px;}
-.top .nav li{float: left;}
+.top .nav li{float: right;width:84px;height:81px;transform:skew(160deg);background-color:red;position: relative;box-shadow:1px 0 10px #000;}
+.top .nav li:after{	content: "";position: absolute;top: 49px;left: -151px;transform: scale(1.2) translateX(144px) translateY(27px) skew(68deg);width: 45px;border-width: 10px 25px 0 0;border-style: solid;z-index: 9999;display:none;}
+.top .nav li:hover:after{display: block;}
+.top .nav .show:after{display: block;}
+.top .nav li:nth-of-type(1){background-color: #F1027F;}
+.top .nav li:nth-of-type(1):after{border-color: #F1027F transparent;}
+.top .nav li:nth-of-type(2){background-color: #BD00BE;z-index: 2;}
+.top .nav li:nth-of-type(2):after{border-color: #BD00BE transparent;}
+.top .nav li:nth-of-type(3){background-color: #34A02E;z-index: 3;}
+.top .nav li:nth-of-type(3):after{border-color: #34A02E transparent;}
+.top .nav li:nth-of-type(4){background-color: #34B4D1;z-index: 4;}
+.top .nav li:nth-of-type(4):after{border-color: #34B4D1 transparent;}
+.top .nav li:nth-of-type(5){background-color: #0950A2;z-index: 5;}
+.top .nav li:nth-of-type(5):after{border-color: #0950A2 transparent;}
+.top .nav li:nth-of-type(6){background-color: #811788;z-index: 6;}
+.top .nav li:nth-of-type(6):after{border-color: #811788 transparent;}
+.top .nav li:nth-of-type(7){background-color: #FF7F00;z-index: 7;}
+.top .nav li:nth-of-type(7):after{border-color: #FF7F00 transparent;}
+.top .nav li:nth-of-type(8){background-color: #FE0000;z-index: 8;}
+.top .nav li:nth-of-type(8):after{border-color: #FE0000 transparent;}
+.top .nav li:nth-of-type(8) a{margin-left: -24px;}
+.top .nav li:nth-of-type(8):before{content:" ";position:absolute;top:-9px;left:-78px;border-left:58px solid transparent;border-right:58px solid  transparent;border-bottom:58px solid #FE0000;transform:skew(0deg) rotate(45deg);}
+.top .nav li a{display:block;color:#fff;text-align: center;line-height: 81px;transform:skew(20deg);}
 .top .DH400{background: url("../images/doubt_03.jpg") no-repeat;width: 226px;height: 97px;margin-top: 19px;}
 .top .nav-img{padding-bottom: 13px;}
 .foot{height: 85px;background-color: #e5e5e5;text-align: center;line-height: 70px;}
