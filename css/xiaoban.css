@@ -33,6 +33,7 @@ body{background: #f6f6f6;}
 .xiaoban .contrast dt{background: #ff9d33;height: 40px;line-height: 40px;text-align: center;color: #fff;margin-bottom: 4px;}
 .xiaoban .contrast .dd_a{height: 136px;text-align: center;background: #f7f7f7;}
 .xiaoban .contrast .dd_b{height: 166px;background: #ebebeb;color: #fb5109;text-align: center;}
+.xiaoban .contrast .dd_c span{font-weight: bold;font-size: 18px;}
 .xiaoban .contrast .type{width: 107px;margin-right: 4px;}
 .xiaoban .contrast .form{width: 147px;margin-right: 4px;}
 .xiaoban .contrast .people,.xiaoban .contrast .teacher{width: 106px;margin-right: 4px;}
@@ -84,7 +85,7 @@ body{background: #f6f6f6;}
 .xk_tow{width: 197px;}
 .xk_three{margin-right: 0px;width: 421px;}
 .xk_btn{margin-top: 37px;text-align: center;}
-.xk_btn button{outline: none;border: none;width: 236px;height: 47px;background: #fc4f0b;color: #fff;font-size: 18px;border-radius: 5px}
+.xk_btn button{outline: none;border: none;width: 236px;height: 47px;background: #fc4f0b;color: #fff;font-size: 18px;border-radius: 5px;cursor: pointer;}
 
 /*shizi start*/
 .sz_title,.sz_title2{text-align: center;font-size: 14px;line-height: 24px;}
