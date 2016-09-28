@@ -55,10 +55,37 @@ body{background: #f6f6f6;}
 .xiaoban .resone_right h4{font-size: 16px}
 .xiaoban .resone_right p{line-height: 24px;}
 .xiaoban .mgt{margin-top: 13px}
-.xiaoban_three{background: #fff;}
+.xiaoban_three{background: #fff;padding-bottom: 50px}
 /*three*/
 .xiaoban .three_zhi{margin-bottom: 25px}
 .xiaoban .three_title{color: #383838;margin: 49px 0 30px;}
 .xiaoban .three_quesition{color: #fc4f0b;font-size: 14px;font-weight: 400;line-height: 24px;margin-bottom: 5px;}
 .xiaoban .three_answer{width: 1039px;line-height: 24px}
+.xiaoban .three_biaoge{}
+.xiaoban .three_biaoge li{float: left;margin-right: 6px}
+.xiaoban .three_biaoge li p{width: 152px;height: 40px;line-height: 40px;text-align: center;}
+.xiaoban .three_biaoge .three_last p{width: 468px}
+.xiaoban .three_biaoge .three_top{background:#f1f1f1;margin-bottom: 5px }
+.xiaoban .three_biaoge .three_bottom{background: #f8f8f8;margin-bottom: 24px}
+.xiaoban .three_biaoge .three_th .three_top{background: #ff9d33;color: #FFF}
+
+/*xuanke start*/
+.xk_title{height: 65px;line-height: 65px;border-bottom: 1px solid #e5e5e5;}
+.xk_title span{width: 75px;height: 37px;line-height: 37px;display: inline-block;text-align: center;border:1px solid #e5e5e5;border-radius: 5px }
+.xk_title span.active{background: #ff9d33;color: #fff;border:1px solid #ff9d33;}
+.xk_box{margin: 41px 0;}
+.xk_left{width: 75px;color: #ff9d33;margin-bottom: 30px}
+.xk_right{width: 1025px;margin-bottom: 30px}
+.xk_first,.xk_tow,.xk_three{width: 154px;margin-right: 5px;}
+.xk_first p{height: 40px;line-height: 40px;text-align: center;margin-bottom: 3px}
+.xk_pocity{background: #ff9d33;color: #fff}
+.xk_chinese{background: #f1f1f1;}
+.xk_math,.xk_english{background: #f8f8f8;}
+.xk_tow{width: 197px;}
+.xk_three{margin-right: 0px;width: 421px;}
+.xk_btn{margin-top: 37px;text-align: center;}
+.xk_btn button{outline: none;border: none;width: 236px;height: 47px;background: #fc4f0b;color: #fff;font-size: 18px;border-radius: 5px}
+
+
+
 
